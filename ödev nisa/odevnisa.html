@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ödev Kayıt Formu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="main">
+        <h1 class="title">- Kayıt Formu-</h1>
+        <form action="#">
+            <div class="input-box">
+                <label for="first-name">Adınız:</label>
+                <input type="text" id="first-name" placeholder="Adınızı Giriniz..." required>
+            </div>
+            <div class="input-box">
+                <label for="last-name">Soyadınız:</label>
+                <input type="text" id="last-name" placeholder="Soyadınızı Giriniz..." required>
+            </div>
+            <div class="input-box">
+                <label for="email">E-Posta:</label>
+                <input type="text" id="email" placeholder="E-Posta Adresinizi Giriniz..." required>
+            </div>
+            <div class="input-box">
+                <label for="phone">Telefon:</label>
+                <input type="text" id="phone" placeholder="Telefon Numarınızı Giriniz..." required>
+            </div>
+            <div class="gender-selection">
+                <span>Cinsiyet:</span>
+                <label for="circle-1">
+                    <input type="radio" name="gender" id="circle-1">
+                    Erkek
+                </label>
+                <label for="circle-2">
+                    <input type="radio" name="gender" id="circle-2">
+                    Kadın
+                </label>
+            </div>
+            <div class="button">
+                <button onclick="test()">Kayıt Ol</button>
+                <script src="./alert77.js"></script>
+            </div>
+            <div class="messages"></div>
+        </form>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins'
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+.main {
+    background: rgba(red, rgb(62, 9, 66), rgb(21, 21, 37), alpha)
+}
+
